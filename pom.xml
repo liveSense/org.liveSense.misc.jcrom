@@ -42,8 +42,7 @@
 							org.jcrom.*
 						</Export-Package>
                         <Embed-Dependency>
-                       		jcrom,
-                       		cglib
+                       		jcrom
                         </Embed-Dependency>                        
 					</instructions>
 				</configuration>
@@ -52,11 +51,6 @@
 	</build>
 
 	<dependencies>
-        <dependency>
-            <groupId>cglib</groupId>
-            <artifactId>cglib</artifactId>
-            <version>2.1_3</version>
-        </dependency>
         <dependency>
 			<groupId>org.jcrom</groupId>
  			<artifactId>jcrom</artifactId>
