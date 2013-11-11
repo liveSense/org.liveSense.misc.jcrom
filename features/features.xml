@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<features name="liveSense-${liveSense.version}-misc-jcrom" xmlns="http://karaf.apache.org/xmlns/features/v1.0.0">
+	<feature name="liveSense-misc-jcrom" version="${liveSense.misc.jcrom.version}" description="liveSense misc jcrom">
+		<bundle>mvn:com.github.livesense/org.liveSense.misc.jcrom/${liveSense.misc.jcrom.version}</bundle>
+	</feature>
+</features>

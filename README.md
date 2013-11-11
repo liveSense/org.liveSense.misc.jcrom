@@ -15,7 +15,7 @@ liveSense Jcrom node bean mapping
 	* javax.jcr.nodetype
 	* javax.jcr.query
 	* javax.jcr.version
-* __Apache ServiceMix Bundles: cglib-2.1_3 - org.apache.servicemix.bundles.cglib (2.1.0.3_4)__
+* __Apache ServiceMix :: Bundles :: cglib - org.apache.servicemix.bundles.cglib (2.2.2.1)__
 	* net.sf.cglib.proxy
 
 ## OSGi Embedded JARs

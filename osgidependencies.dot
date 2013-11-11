@@ -1,7 +1,7 @@
 digraph {
 	node[shape=record, fontname="Arial", fontsize=8]node [style=filled, fillcolor=yellow, label= "{liveSense :: Misc :: Jcrom node bean mapping | org.liveSense.misc.jcrom(2-SNAPSHOT)}"] org_liveSense_misc_jcrom;
 node [style=filled, fillcolor=green, label= "{Content Repository for JavaTM Technology API | javax.jcr(2.0)}"] javax_jcr;
-node [style=filled, fillcolor=green, label= "{Apache ServiceMix Bundles: cglib-2.1_3 | org.apache.servicemix.bundles.cglib(2.1.0.3_4)}"] org_apache_servicemix_bundles_cglib;
+node [style=filled, fillcolor=green, label= "{Apache ServiceMix :: Bundles :: cglib | org.apache.servicemix.bundles.cglib(2.2.2.1)}"] org_apache_servicemix_bundles_cglib;
 org_liveSense_misc_jcrom -> javax_jcr [color=yellow];
 org_liveSense_misc_jcrom -> org_apache_servicemix_bundles_cglib [color=yellow];
 {rank=same;javax_jcr;org_apache_servicemix_bundles_cglib;};}
